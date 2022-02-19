@@ -53,7 +53,7 @@
 #define MSG_PREHEAT_2                       "\xc3\xc4 ABS"
 #define MSG_PREHEAT_2_N                     MSG_PREHEAT_2 " "
 #define MSG_PREHEAT_2_ALL                   MSG_PREHEAT_2 " \xc5\xc6"
-#define MSG_PREHEAT_2_BEDONLY               MSG_PREHEAT_2 " \xbe\xc6"
+#define MSG_PREHEAT_2_BEDONLY               MSG_PREHEAT_2 " \xc4\xc7"
 #define MSG_PREHEAT_2_SETTINGS              MSG_PREHEAT_2 " \xbe\xbf"
 #define MSG_COOLDOWN                        "\xc8\xc9"
 #define MSG_SWITCH_PS_ON                    "\xb9\xcb\xca\xb3"
@@ -61,7 +61,7 @@
 #define MSG_EXTRUDE                         "\xcc\xad"
 #define MSG_RETRACT                         "\xbb\xcd"
 #define MSG_MOVE_AXIS                       "\xc1\xb2\xce"
-#define MSG_BED_LEVELING                    "\xcf\xe0\xc4\xc7"
+#define MSG_BED_LEVELING                    "\xb1\xb2\xcf\xd0"
 #define MSG_LEVEL_BED                       "\xcf\xe0\xc4\xc7"
 #define MSG_MOVE_X                          "\xc1\xb2 X"
 #define MSG_MOVE_Y                          "\xc1\xb2 Y"
@@ -142,8 +142,8 @@
 #define MSG_CONTROL_RETRACT_RECOVERF        "UnRet  V"
 #define MSG_AUTORETRACT                     "AutoRetr."
 #define MSG_FILAMENTCHANGE                  "Change filament"
-#define MSG_INIT_SDCARD                     "Init. SD card"
-#define MSG_CNG_SDCARD                      "Change SD card"
+#define MSG_INIT_SDCARD                     "Init. TF card"
+#define MSG_CNG_SDCARD                      "Change TF card"
 #define MSG_ZPROBE_OUT                      "Z probe out. bed"
 #define MSG_HOME                            "Home"  // Used as MSG_HOME " " MSG_X MSG_Y MSG_Z " " MSG_FIRST
 #define MSG_FIRST                           "first"
@@ -163,5 +163,5 @@
 #define MSG_DELTA_CALIBRATE_Y               "Calibrate Y"
 #define MSG_DELTA_CALIBRATE_Z               "Calibrate Z"
 #define MSG_DELTA_CALIBRATE_CENTER          "Calibrate Center"
-
+#define MSG_POWER_LOSS_RECOVERY             "\xa4\xa5\xf4\xf5\xca\xf3 ?"
 #endif // LANGUAGE_CN_H
